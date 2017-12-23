@@ -5,8 +5,8 @@ from django.shortcuts import render, redirect
 
 
 @login_required
-def todo(request):
-    return render(request, 'todo.html')
+def home(request):
+    return render(request, 'home.html')
 
 
 def signup(request):
